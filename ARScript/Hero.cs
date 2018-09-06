@@ -1,0 +1,18 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using UnityEngine;
+namespace Assets.MyScript.ARScript
+{
+    class Hero:MonoBehaviour
+    {
+        public int HeroHp;
+
+        public int HeroHp1
+        {
+            get { return HeroHp; }
+            set { HeroHp = value; }
+        }
+    }
+}
